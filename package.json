@@ -1,0 +1,46 @@
+{
+  "name": "slush-my-style",
+  "description": "A slush generator for quickly enforcing my own coding conventions :)",
+  "version": "0.1.0",
+  "homepage": "https://github.com/heikki/slush-my-style",
+  "author": {
+    "name": "Heikki Ylönen",
+    "email": "heikki74@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heikki/slush-my-style.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heikki/slush-my-style/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/heikki/slush-my-style/blob/master/LICENSE"
+    }
+  ],
+  "main": "slushfile.js",
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "editorconfig": "^0.11.4",
+    "gulp": "^3.8.7",
+    "gulp-conflict": "^0.1.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-template": "^0.1.2",
+    "gulp-util": "^2.2.20",
+    "inquirer": "^0.5.1"
+  },
+  "keywords": [
+    "editorconfig",
+    "jscs",
+    "jshint",
+    "slushgenerator"
+  ]
+}
