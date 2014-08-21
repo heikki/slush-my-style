@@ -41,7 +41,7 @@ gulp.task('default', function(done) {
 		}
 
 		if (answers.jscs !== 'none') {
-			var variation = answers.jscs === 'mine' ? answers.jscs : 'preset';
+			var variation = answers.jscs === 'mine' ? 'mine' : 'preset';
 			glob.push(__dirname + '/templates/_jscsrc.' + variation);
 		}
 

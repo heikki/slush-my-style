@@ -23,7 +23,7 @@
 	"disallowMultipleLineBreaks": true,
 	"disallowKeywordsOnNewLine": [ "else" ],
 
-	"validateIndentation": "\t",
+	"validateIndentation": <% if (indentStyle === 'tab') { %>"\t"<% } else { %><%- indentSize %><% } %>,
 	"validateLineBreaks": "LF",
 	"validateQuoteMarks": { "mark": "'", "escape": false },
 	"disallowMixedSpacesAndTabs": true,
