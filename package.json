@@ -1,7 +1,7 @@
 {
   "name": "slush-my-style",
   "description": "A slush generator for quickly applying my own coding conventions :)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/heikki/slush-my-style",
   "author": {
     "name": "Heikki Ylönen",
